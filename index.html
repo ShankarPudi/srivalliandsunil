@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Srivalli & Sunil's Wedding Countdown</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Srivalli & Sunil's Wedding</title>
+    <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -12,7 +12,8 @@
         <div class="overlay"></div>
         <div class="content">
             <h1>Srivalli <span>&</span> Sunil</h1>
-            <h2>Are Getting Married!</h2>
+            <h2>Welcome to Our Wedding Celebration!</h2>
+            <p class="welcome-message">We are thrilled to share our special day with you. Join us as we count down to the moment we say "I do" under the tropical skies!</p>
             <div id="countdown">
                 <div class="time-box">
                     <span id="days">00</span>
@@ -32,8 +33,47 @@
                 </div>
             </div>
             <p class="wedding-date">August 1st, 2025 | 11:50 PM IST</p>
+
+            <!-- Second Half: Additional Features -->
+            <div class="gallery-preview">
+                <h3>Photo Gallery</h3>
+                <div class="gallery-grid">
+                    <img src="images/couple-photo1.jpg" alt="Couple Photo">
+                    <img src="images/engagement1.jpg" alt="Engagement Photo">
+                </div>
+                <a href="gallery.html" class="btn">View Full Gallery</a>
+            </div>
+            <div class="video-preview">
+                <h3>Video Moments</h3>
+                <video controls>
+                    <source src="videos/sample-video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <a href="gallery.html#videos" class="btn">Watch More Videos</a>
+            </div>
+            <div class="hashtag">
+                <h3>Join the Celebration</h3>
+                <p>Use our wedding hashtag: <strong>#SrivalliSunil2025</strong></p>
+            </div>
         </div>
     </div>
-    <script src="script.js"></script>
+
+    <!-- Bottom Navigation Bar -->
+    <nav class="bottom-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="event.html">Event Details</a>
+        <a href="guest.html">Guest Info</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+        <a href="guestbook.html">Guestbook</a>
+        <a href="map.html">Map</a>
+        <a href="music.html">Music</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="photobooth.html">Photo Booth</a>
+    </nav>
+
+    <script src="js/countdown.js"></script>
 </body>
 </html>
